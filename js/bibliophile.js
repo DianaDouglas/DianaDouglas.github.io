@@ -51,7 +51,7 @@
     year = weekFromToday.getFullYear();
 
     // Create the message
-    expiryMsg = 'Offer expires next ';
+    expiryMsg = '25% off deal is for a limited time';
     expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ')';
     return expiryMsg;
   }
