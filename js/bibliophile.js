@@ -51,7 +51,7 @@
     year = weekFromToday.getFullYear();
 
     // Create the message
-    expiryMsg = '25% off expires';
+    expiryMsg = '25% off expires ';
     expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ')';
     return expiryMsg;
   }
