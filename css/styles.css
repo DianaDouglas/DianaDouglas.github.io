@@ -48,4 +48,18 @@ main {
     border: solid 2px;
 }
 
+	#specialRate {  
+	  font-size: 200%;
+	  color: #fffff;
+	  display: inline-block;
+	  padding: 10px 0 20px 0;
+	  margin: 0;
+	}
+	
+	#offerEnds {
+	  text-transform: uppercase;
+	  color: #fffff;
+	  font-size: 55%;
+	}
+
 }
