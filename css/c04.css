@@ -1,1 +1,13 @@
 
+#blackboard {
+	line-height: 175%;
+	background-color: rgb(236, 100, 225);
+	border: 15px solid #f0eded;
+	border-radius: 20px;
+	padding-top: 6%;
+	margin: auto;
+	height: 300px;
+    width: 400px;
+    text-align: center;
+}
+}
