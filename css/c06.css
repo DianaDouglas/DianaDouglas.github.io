@@ -1,6 +1,6 @@
 body {
     background-color: #ff479d;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Roboto', sans-serif;    
     margin: 0; 
     padding: 0;}
 
@@ -25,7 +25,7 @@ main {
     clear: left;
     background-color: aquamarine;
     padding: 2%;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
 }
 
@@ -79,10 +79,10 @@ h2 {
 
 
 li {
-    background-color: #ec68c494;
+    background-color: #df0fa094;
     color: #fff;
-    border-top: 1px solid #ce9fb6;
-    border-bottom: 1px solid #ad91b3;
+    border-top: 1px solid #cc719d;
+    border-bottom: 1px solid #764e80;
     font-size: 24px;
     letter-spacing: .05em;
     list-style-type: none;
@@ -113,27 +113,23 @@ p {
   .hot {
     background-color: #d7666b;
     color: #fff;
-    text-shadow: 2px 2px 1px #914141;
     border-top: 1px solid #e99295;
     border-bottom: 1px solid #914141;}
   
   .cool {
     background-color: #6cc0ac;
     color: #fff;
-    text-shadow: 2px 2px 1px #3b6a5e;
     border-top: 1px solid #7ee0c9;
     border-bottom: 1px solid #3b6a5e;}
 
 .complete {
-    background-color: #999;
+    background-color: #a06daf;
     color: #fff;
     background-image: url("../images/icon-trash.png");
     background-position: right, center;
     background-repeat: no-repeat;
     border-top: 1px solid #666;
     border-bottom: 1px solid #b0b0b0;
-    text-shadow: 2px 2px 1px #333;}
-  
   .complete a {display:block;}
 
 /* Form styles */
@@ -148,12 +144,12 @@ form {
     font-size: 24px;}
   
   input[type='text'], input[type='password'], textarea {
-    background-color: #999;
-    color: #666;
-    font-family: 'Oswald', 'Futura', sans-serif;
+    background-color: rgb(224, 148, 224);
+    color: #af4887;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     width: 96%;
-    padding: 4px 6px;
+    padding: 4px 6px;s
     border: 1px solid rgb(161, 66, 111);
     border-radius: 8px;}
 
@@ -218,7 +214,6 @@ input[type='text']:focus, input[type='password']:focus, textarea:focus {
     color: #fff;
     background-color: #000;
     opacity: 0.9;
-    box-shadow: -3px 3px 6px #000;
     padding: 1em 1em 2em 1em;
     height: 95%;
     width: 95%;
@@ -293,7 +288,6 @@ input[type='text']:focus, input[type='password']:focus, textarea:focus {
 /* Membership Options */
 #packageHint, #termsHint {
     color: #fff;
-    text-shadow: -1px 1px 2px #000;}
   
 #terms {
     margin-top: 30px;}
