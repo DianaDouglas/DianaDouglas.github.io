@@ -1,3 +1,9 @@
+/*
+Author: Diana Douglas
+Date: 1/4/2021
+File Name: styles.css
+*/
+
 body {
     background-color: #ff479d;
     font-family: 'Xanh Mono', monospace;
@@ -11,7 +17,6 @@ body {
 
 
 h1 {
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F537687643011856393%2F&psig=AOvVaw1h_JiGkGohGmNLOdMD9CvJ&ust=1612398619821000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDq2oy7zO4CFQAAAAAdAAAAABAD;
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
@@ -61,7 +66,6 @@ li {
     font-size: 24px;
     letter-spacing: .05em;
     list-style-type: none;
-    text-shadow: 2px 2px 1px #c98da9;
     height: 50px;
     padding-left: 1em;
     padding-top: 10px;}
