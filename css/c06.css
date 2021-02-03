@@ -4,6 +4,32 @@ body {
     margin: 0; 
     padding: 0;}
 
+
+header {
+    width: 25%;
+    float: left; 
+}
+
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+
+main {
+    clear: left;
+    background-color: aquamarine;
+    padding: 2%;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 1.25em;
+}
+
+
 #page {
     background-color: #dd72d8;
     margin: 0 auto 0 auto;}
