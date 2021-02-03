@@ -154,7 +154,7 @@ form {
     font-size: 24px;
     width: 96%;
     padding: 4px 6px;
-    border: 1px solid #999;
+    border: 1px solid rgb(161, 66, 111);
     border-radius: 8px;}
 
 input[type='text']:focus, input[type='password']:focus, textarea:focus {
