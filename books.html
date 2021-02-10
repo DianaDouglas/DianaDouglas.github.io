@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/c06.css">
+    <link rel="stylesheet" href="css/c07.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,18 +15,11 @@
 
             <!--Use the header area for the website name or logo-->
             <nav>
-                <p><a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="books.html">Books</a></p>
-            </nav>
+             </nav>
 <header>
     <h1>Girl Cried Wolf</h1>
 </header>
 
-
-<main>
-    
 <!-- Use the main area to add the main content of the webpage -->
 <main>
     <div id="page">
@@ -36,11 +30,18 @@
             <li class="complete"><a href="itemDone.php?id=3">Advanced CSS</a></li>
             <li class="complete"><a href="itemDone.php?id=4">HTML Basics for beginners</a></li>
             </ul>
-    </div>
+
+            <form id="newItemForm">
+                <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+                <input type="text" id="itemDescription" placeholder="++..." />
+                <input type="submit" id="addButton" value="add" />
+            </form>
+                </div>
     
 	<script src="js/c06.js"></script>
+    <script src="js/newitem.js"></script>
     
-	</main>
+</main>
 
 <footer>
         <p>&copy; Copyright 2021. All Rights Reserved.</p>
