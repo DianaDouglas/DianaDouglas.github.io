@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <!--This website template was created by: Diana Douglas-->
-<html lang="en">
+<html ng-app>
 <head>
     <title>Girl Cried Wolf</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+   <script src="js/angular-controller.js"></script>
 	<link rel="stylesheet" href="css/c06.css">
     <link rel="stylesheet" href="css/c07.css">
+    <link rel="stylesheet" href="css/c09.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<P></P>
 <main>
     <div id="page">
         <h2>Reading List</h2>
@@ -26,9 +28,24 @@
             <input type="text" id="itemDescription" placeholder="++.." />
             <input type="submit" id="add" value="add" />
         </form>
+
         </div>
                 <script src="js/jquery-1.11.0.js"></script>
                 <script src="js/newitem.js"></script>
+        </div>
+
+        <br></br>
+
+        <h2 class=hwhite>ORDER Books here</h2>
+
+        <div class="pri">
+            <table ng-controller="BasketCtrl">
+            <tr><td><span id="name">Item:</span></td><td>{{ description }}</td></tr>
+            <tr><td><span id="name">Cost:</span></td><td>${{ cost }}</td></tr>
+            <tr><td><span id="name">Total in Cart:</span></td><td><input type="number" ng-model="qty"></td></tr>
+            <tr><td><span id="name">Subtotal:</span></td><td>{{qty * cost | currency}}</td></tr>
+            </table>
+        </div>            
 </main>
 
 </body>
