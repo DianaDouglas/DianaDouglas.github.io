@@ -4,26 +4,44 @@
 <head>
     <title>Girl Cried Wolf</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/accordion.css">
+  </head>
+
 <body>
-    <div id="container">
-            <!--Use the header area for the website name or logo-->
 
-<header>
-    <h1>Girl Cried Wolf</h1>
-</header>
+    <header><h1>Girl Cried Wolf Book Store</h1></header>
 
-<nav>
-    <p><a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="books.html">Books</a></p>
-</nav>>
+    <section class="page">
+      <ul class="accordion">
+        <li>
+          <button class="accordion-control">Books we carry</button>
+          <div class="accordion-panel">
+            <p>We currated a collection of books geared towards improving and educationing ones live.</p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-control">Specials</button>
+          <div class="accordion-panel">
+            <p>Every Wednesday we have a featured author</p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-control">Open to Advice</button>
+          <div class="accordion-panel">
+            <p>We want you to enjoy GCW as much as we do. Please contact us if you have any questions.</p>
+          </div>
+        </li>
+	<button class="accordion-control">Why we decided to sell these books</button>
+          <div class="accordion-panel">
+            <p>Work in progress</p>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-<main>
-</main>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/accordion.js"></script>
 
 <footer>
         <p>&copy; Copyright 2021. All Rights Reserved.</p>
