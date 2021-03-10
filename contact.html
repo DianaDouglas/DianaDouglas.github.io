@@ -4,38 +4,46 @@
 <head>
     <title>Girl Cried Wolf</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/c13.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div id="container">
+<P></P><br><br>
+  <form id="how-heard" action="/heard" method="post">
 
-            <!--Use the header area for the website name or logo-->
-
-<header>
-    <h1>Girl Cried Wolf</h1>
-</header>
-
-<nav>
-    <p><a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="books.html">Books</a></p>
-</nav>
-
-<main>
-    
-    <div>
-    </div>
+    <div class="one-third column">
+      <h4><c>Girl Cried Wolf Bookstore</c></h4>
+     <img src="images/bookstorefront.jpg" alt="logo" id="logo">
+     <p>Located: 1234 Alphabet Lane
+      Bellingham, WA 98225<br>#: (360) 855-4544</p>
+     
+     </div>
+     
+    <div class="two-thirds column" id="main">
+       
+     <fieldset>
+        <legend>How did you hear of us?</legend>
+     
+     <input type="radio" name="heard" value="search" id="search" />
+     <label for="search">Search engine</label><br>
+     
+     <input type="radio" name="heard" value="print" id="print" />
+     <label for="print">Newspaper or magazine</label><br>
+     
+     <input type="radio" name="heard" value="other" id="other" />
+     <label for="other">Other</label><br>
+     <input type="text" name="other-input" id="other-text" />
+     
+     <input id="submit" type="submit" value="submit" />
+     </fieldset>
+     </div>
+     </form>
+      <script src="js/utilities.js"></script>
+      <script src="js/show-option.js"></script>
 
 </main>
 
-<footer>
-        <p>&copy; Copyright 2021. All Rights Reserved.</p>
-        <p><a href="mailto:ddouglas4778@mysvc.skagit.edu">ddouglas4778@mysvc.skagit.edu</a></p>
-</footer>
-</div>
 </body>
 </html>
  
